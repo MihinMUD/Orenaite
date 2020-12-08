@@ -1,2 +1,10 @@
 # Orenaite
-Minetest new ore mod
+Add Orenaite ore to your world!
+
+And
+
+Orenaite Sword!
+Orenaite Pickaxe!
+Orenaite Axe!
+Orenaite Shovel!
+Orenaite Blocks!
