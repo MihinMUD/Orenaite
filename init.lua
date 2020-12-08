@@ -104,22 +104,17 @@ minetest.register_node("orenaite:orenaite_ore", {
 	groups = {cracky = 1},
 	drop = "orenaite:orenaite",
 })
-minetest.register_ore( {
-    ore_type = "scatter",
-    ore = "orenaite:orenaite_ore",
-    wherein = "default:stone",
-    clust_size = 3,
-    y_min = -31000,
-    y_max = 64,
-    noise_params = {
-        offset = 0,
-        scale = 1,
-        spread = {x = 100, y = 100, z = 100},
-        seed = 23,
-        octaves = 3,
-        persist = 0.7
-    }
+minetest.register_ore({
+	ore_type       = "scatter",
+	ore            = "orenaite:orenaite_ore",
+	wherein        = "default:stone",
+	clust_scarcity = 9 * 9 * 9,
+	clust_num_ores = 12,
+	clust_size     = 3,
+	y_max          = 31000,
+	y_min          = 1025,
 })
+
 
 
 
