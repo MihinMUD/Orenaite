@@ -101,7 +101,7 @@ minetest.register_tool("orenaite:pick_orenaite", {
 minetest.register_node("orenaite:orenaite_ore", {
 	description = "Ornaite Ore",
 	tiles = {"default_stone.png^orenaite_ore.png"},
-	groups = {cracky = 1},
+	groups = {cracky = 3},
 	drop = "orenaite:orenaite",
 })
 	-- Coal
