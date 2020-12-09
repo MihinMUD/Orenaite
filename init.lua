@@ -124,21 +124,9 @@ minetest.register_node("orenaite:orenaite_ore", {
 		clust_scarcity = 8 * 8 * 8,
 		clust_num_ores = 8,
 		clust_size     = 3,
-		y_max          = 64,
+		y_max          = -100,
 		y_min          = -31000,
 	})
-
-	minetest.register_ore({
-		ore_type       = "scatter",
-		ore            = "orenaite:orenaite_ore",
-		wherein        = "default:stone",
-		clust_scarcity = 24 * 24 * 24,
-		clust_num_ores = 27,
-		clust_size     = 6,
-		y_max          = 0,
-		y_min          = -31000,
-	})
-
 
 
 
