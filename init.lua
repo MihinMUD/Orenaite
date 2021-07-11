@@ -104,29 +104,17 @@ minetest.register_node("orenaite:orenaite_ore", {
 	groups = {cracky = 3},
 	drop = "orenaite:orenaite",
 })
-	-- Coal
 
-	minetest.register_ore({
-		ore_type       = "scatter",
-		ore            = "orenaite:orenaite_ore",
-		wherein        = "default:stone",
-		clust_scarcity = 8 * 8 * 8,
-		clust_num_ores = 9,
-		clust_size     = 3,
-		y_max          = 31000,
-		y_min          = 1025,
-	})
-
-	minetest.register_ore({
-		ore_type       = "scatter",
-		ore            = "orenaite:orenaite_ore",
-		wherein        = "default:stone",
-		clust_scarcity = 8 * 8 * 8,
-		clust_num_ores = 8,
-		clust_size     = 3,
-		y_max          = -100,
-		y_min          = -31000,
-	})
+minetest.register_ore({
+	ore_type       = "scatter",
+	ore            = "orenaite:orenaite_ore",
+	wherein        = "default:stone",
+	clust_scarcity = 8 * 8 * 8,
+	clust_num_ores = 8,
+	clust_size     = 3,
+	y_max          = -1000,
+	y_min          = -31000,
+})
 
 
 
